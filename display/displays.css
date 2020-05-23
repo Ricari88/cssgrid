@@ -10,6 +10,9 @@ body{
 .container{
     display: grid;
     grid-template: 300px 100px 100px / 50% 200px 100px;
+    /*para espaciado entre elementos*/
+    grid-column-gap: 30px;
+    grid-row-gap: 50px;
 }
 .item:nth-of-type(4){
     background-color: blue;
@@ -23,3 +26,5 @@ body{
 .item .item {
     background-color: seagreen;
 }
+
+/*espacio entre elementos*/
